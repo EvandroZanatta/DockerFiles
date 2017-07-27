@@ -4,7 +4,7 @@ Ambiente LAMP para desenvolvimento com PHP 7.1
 
 ## Itens instalados
 
-- Apache 2.4 [#ssl](instalar SSL)
+- Apache 2.4
 - PHP 7.1
 - MySQL 5.7 (root:123456)
 - phpMyAdmin
