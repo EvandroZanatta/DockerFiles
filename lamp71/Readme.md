@@ -31,4 +31,4 @@ Se você precisar instalar um certificado SSL no seu ambiente, siga esse artigo 
 
 ## Criar imagem
 
-`docker build -t php71 .`
+Baixe o arquivo _Dockerfile_ e execute no terminal o comando `docker build -t php71 .`
