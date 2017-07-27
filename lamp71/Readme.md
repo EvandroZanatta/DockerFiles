@@ -24,3 +24,7 @@ Ambiente LAMP para desenvolvimento com PHP 7.1
 ## Ambiente de trabalho
 
 - /var/www/html
+
+## SSL
+
+Se você precisar instalar um certificado SSL no seu ambiente, siga esse artigo https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04.
