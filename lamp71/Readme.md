@@ -28,3 +28,7 @@ Ambiente LAMP para desenvolvimento com PHP 7.1
 ## SSL
 
 Se você precisar instalar um certificado SSL no seu ambiente, siga esse artigo https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04.
+
+## Criar imagem
+
+`docker build -t php71 .`
