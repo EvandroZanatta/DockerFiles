@@ -20,9 +20,7 @@ RUN apt-get install curl
 
 RUN apt-get -y install apache2
 
-### Add SSL files ###
-ADD 000-default.conf /etc/apache2/sites-enabled/000-default.conf
-ADD 001-default-ssl.conf /etc/apache2/sites-enabled/001-default-ssl.conf
+# FOR SSL https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04
 
 # -------------------
 # --- INSTALL PHP ---
@@ -39,7 +37,7 @@ RUN apt-get -y install php7.1 libapache2-mod-php7.1 php7.1-curl
 # ---------------------
 
 # password root:123456
-
+githu
 RUN echo 'mysql-server mysql-server/root_password password 123456' | debconf-set-selections
 RUN echo 'mysql-server mysql-server/root_password_again password 123456' | debconf-set-selections
 RUN apt-get -y install mysql-server --no-install-recommends
