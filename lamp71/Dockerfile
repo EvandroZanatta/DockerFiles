@@ -19,8 +19,9 @@ RUN apt-get install curl
 # ----------------------
 
 RUN apt-get -y install apache2
-
+RUN a2enmod rewrite
 # FOR SSL https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04
+# .htaccess problem https://pt.stackoverflow.com/questions/30116/habilitar-o-htaccess-no-ubuntu
 
 # -------------------
 # --- INSTALL PHP ---
