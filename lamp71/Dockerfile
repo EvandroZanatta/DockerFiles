@@ -37,7 +37,6 @@ RUN apt-get -y install php7.1 libapache2-mod-php7.1 php7.1-curl
 # ---------------------
 
 # password root:123456
-githu
 RUN echo 'mysql-server mysql-server/root_password password 123456' | debconf-set-selections
 RUN echo 'mysql-server mysql-server/root_password_again password 123456' | debconf-set-selections
 RUN apt-get -y install mysql-server --no-install-recommends
