@@ -79,6 +79,9 @@ RUN apt-get upgrade -y
 RUN apt-get autoclean -y
 RUN apt-get autoremove -y
 
+RUN update-rc.d apache2 defaults
+RUN update-rc.d mysql defaults
+
 RUN service apache2 start
 
 CMD bash
