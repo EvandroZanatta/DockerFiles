@@ -33,5 +33,5 @@ Se você precisar instalar um certificado SSL no seu ambiente, siga esse artigo 
 
 Baixe o arquivo _Dockerfile_ e execute no terminal o comando `docker build -t php71 .`
 
-Execute com o comando `docker run -it --name [nome_do_projeto] -p :80 -v [pastalocal]:/var/www/html/ php71`
+Execute com o comando `docker run -it --name [nome_do_projeto] -p :80 -v "$PWD":/var/www/html/ php71`
 
